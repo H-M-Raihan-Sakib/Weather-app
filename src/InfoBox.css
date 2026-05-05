@@ -1,0 +1,40 @@
+.InfoBox {
+  width: 100%;
+  margin-top: 24px;
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+.InfoBox .MuiCard-root {
+  width: 100%;
+  max-width: 420px;
+  border-radius: 28px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  background: var(--surface);
+}
+
+.InfoBox .MuiCardMedia-root {
+  min-height: 220px;
+}
+
+.InfoBox .MuiTypography-h5,
+.InfoBox .MuiTypography-h6 {
+  color: var(--text-h);
+}
+
+.InfoBox .MuiTypography-body2 {
+  display: grid;
+  gap: 0.55rem;
+  color: var(--text);
+  line-height: 1.75;
+}
+
+.InfoBox .MuiTypography-body2 p {
+  margin: 0;
+}

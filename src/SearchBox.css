@@ -1,0 +1,55 @@
+.Search {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.Search form {
+  width: 100%;
+  max-width: 680px;
+  display: grid;
+  gap: 1rem;
+  align-items: center;
+}
+
+.Search .MuiOutlinedInput-root {
+  background: var(--surface);
+  border-radius: 20px;
+}
+
+.Search .MuiOutlinedInput-input {
+  padding: 14px 16px;
+  color: var(--text-h);
+}
+
+.Search .MuiFormLabel-root {
+  color: #ffffff !important;
+}
+
+.Search .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+  border-color: var(--border);
+}
+
+.Search .MuiButton-contained {
+  padding: 0.95rem 1.8rem;
+  border-radius: 999px;
+  background: linear-gradient(135deg, var(--accent) 0%, #8b5cf6 100%);
+  box-shadow: 0 18px 40px rgba(91, 69, 255, 0.16);
+}
+
+.Search .MuiButton-contained:hover {
+  background: linear-gradient(135deg, var(--accent-strong) 0%, #7c3aed 100%);
+}
+
+.Search .MuiAlert-root {
+  border-radius: 18px;
+  box-shadow: var(--shadow);
+  background: var(--surface);
+  color: var(--text);
+}
+
+@media (max-width: 560px) {
+  .Search form {
+    gap: 0.85rem;
+  }
+}
